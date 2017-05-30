@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 TextView tv = (TextView) findViewById(R.id.tv);
                 if(tv.getText().equals("너고소"))
-                    tv.setText("맞고소");
+                    tv.setText("맞고소요");
                 else if(tv.getText().equals("맞고소"))
                 tv.setText("너고소");
             }
